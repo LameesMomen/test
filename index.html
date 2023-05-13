@@ -32,11 +32,14 @@
     <!-- End Google Tag Manager (noscript) -->
     
     <button id="btn" style="display: none;">Done</button>
+    <button id="btn1" style="display: none;">Done</button>
     <script>
         var btn=document.getElementById('btn');
+        var btn1=document.getElementById('btn1');
         setTimeout(() => {
             console.log("run")
             btn.style.display="block";
+            btn1.style.display="block";
         }, 2000);
     </script>
 </body>
